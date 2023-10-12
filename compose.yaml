@@ -1,0 +1,7 @@
+services:
+  app:
+    build: .
+    ports:
+      - "8080:1234"
+name: debajit-app
+version: 1.0.0
